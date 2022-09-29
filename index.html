@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/71dee00930.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,800;1,200;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+<!--<i class="fas fa-bars"></i> <!-->
+<!--<i class="fab fa-twitter"></i> <!-->
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-none container">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#"><img src="./Img/imgArgPrograma.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-white"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link text-white p-3" href="https://www.instagram.com/santizeniquelok/" target="_blank">Instagram</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white p-3" href="https://www.linkedin.com/in/santizeniquelok/" target="_blank">Linkedin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white p-3" href="http://api.whatsapp.com/send?phone=3794150486" target="_blank">Whatsapp</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white p-3" href="https://github.com/ScreshSZ" target="_blank">Github</a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link text-white p-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                                href="#"><i class="fas fa-user text-white"></i></a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Ingrese su Usuario</h2>
+                                <input type="text" class="w-100">
+                                <h3>Ingrese su Contraseña</h2>
+                                    <input class="w-100" type="password">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-success">Ingresar</button>
+                            <button type="button" class="btn btn-primary">Log out</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./Img/banner1.png" class="d-block w-100" alt="Banner">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Img/banner2.jpeg" class="d-block w-100" alt="Banner">
+                </div>
+            </div>
+        </div>
+        <i class="fas fa-pen iconoBanner iconos text-white"></i>
+
+    </section>
+
+    <div class="contenedorDatos fondo container my-5">
+        <div class="row">
+            <div class="contenedorPerfil col-sm-12 col-md-6 col-lg-4">
+                <img class="imagen-perfil" src="./Img/perfil.jpeg" title="Zeniquel Santiago" alt="Zeniquel Santiago">
+                <i class="fas fa-pen iconoSobreMi1 iconos text-white"></i>
+                <i class="fas fa-pen iconoSobreMi2 iconos text-white"></i>
+                <h1 class="nombrePerfil titulo">ZENIQUEL SANTIAGO DE JESUS</h1>
+            </div>
+            <div class="descripcionPerfil col-sm-12 col-md-6 col-lg-8 ">
+                <h2 class="miTrabajo titulo subTitulos">SOY FULL STACK DEVELOPER JR.</h2>
+                <div>
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                    <i class="fas fa-ban iconos text-white"></i>
+                </div>
+                <h3 class="text-white">Me llamo Zeniquel Santiago de Jesús tengo 21 años soy estudiante de la carrera
+                    Licenciatura en Sistemas de Información en la UNNE (Universidad Nacional del Nordeste) en la ciudad
+                    de Corrientes y me gusta estudiar todo lo relacionado con la programación de manera autodidacta.
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="experiencia fondo container">
+        <h2 class="titulo subTitulos">EXPERIENCIA</h2>
+        <i class="iconos fas fa-plus"></i>
+        <hr class="text-white">
+        <div class="contenedorExperiencia row my-5">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="d-flex justify-content-center mb-3">
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                    <i class="fas fa-ban iconos text-white"></i>
+                </div>
+                <img class="imagenLlano" src="./Img/hospitalLlano.png" alt="Hospital Llano" title="Hospital Llano">
+            </div>
+            <div class="descripcion-experiencia col-sm-12 col-md-6 col-lg-8">
+                <div>
+                    <h2 class="text-white d-inline">Hospital "Angela Iglesia de Llano"</h2>
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                    <i class="fas fa-ban iconos text-white"></i>
+                </div>
+                <div>
+                    <h3 class="text-white d-inline">Pasantias (Agosto a Noviembre 2018)</h3>
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                    <i class="fas fa-ban iconos text-white"></i>
+                </div>
+                <div>
+                    <h4 class="text-white d-inline">Estudiante</h4>
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                    <i class="fas fa-ban iconos text-white"></i>
+                </div>
+                <div>
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                    <i class="fas fa-ban iconos text-white"></i>
+                    <p class="text-white">Hospital "Ángela Iglesia de Llano"
+                        Pasantias (Agosto a Noviembre 2018)
+                        Mi puesto era en el área de facturación y las tareas principales de las que me encargaba es la
+                        de comprobación y verificación de obras sociales de los pacientes por medio de la pagina Web
+                        SISA (Sistema Integrado de información Sanitaria Argentino) para posteriormente ser enviadas a
+                        su correspondiente departamento.</p>
+
+                </div>
+
+            </div>
+            <hr class="text-white">
+        </div>
+
+    </div>
+
+    <div class="educacion fondo container">
+        <h2 class="titulo subTitulos">EDUCACIÓN</h2>
+        <i class="iconos fas fa-plus"></i>
+        <hr class="text-white">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="d-flex justify-content-center mb-3">
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                    <i class="fas fa-ban iconos text-white"></i>
+                </div>
+                <img src="./Img/escuelaComercio.png" class="imagenesEducacion" alt="Escuela Secundaria Manuel Belgrano"
+                    title="Colegio Secundaria Manuel Belgrano">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-8">
+                <div>
+                    <h3 class="text-white d-inline">Colegio Secundario Manuel Belgrano</h3>
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                    <i class="fas fa-ban iconos text-white"></i>
+                </div>
+                <div>
+                    <h3 class="text-white d-inline">Estudiante Secundario</h3>
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                    <i class="fas fa-ban iconos text-white"></i>
+                </div>
+                <div>
+                    <h3 class="text-white d-inline">(2013 - 2018)</h3>
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                    <i class="fas fa-ban iconos text-white"></i>
+                </div>
+                <div>
+                    <h3 class="text-white d-inline">Bachiller en Economia y Administración</h3>
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                    <i class="fas fa-ban iconos text-white"></i>
+                </div>
+
+            </div>
+            <hr class="text-white">
+        </div>
+
+    </div>
+
+    <div class="habilidades fondo container my-5">
+        <h2 class="titulo subTitulos my-5">HARD AND SOFT SKILLS</h2>
+        <i class="iconos fas fa-plus"></i>
+        <hr class="text-white">
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+                <h3 class="text-white">TRABAJO EN EQUIPO</h3>
+            </div>
+            <div class="col-sm-8 col-md-8 col-lg-8">
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+                <div class="progress" style="height: 30px; border-radius:20px;">
+                    <div class="progress-bar bg-success " role="progressbar" style="width: 80%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+            </div>
+            <hr class="text-white">
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+                <h3 class="text-white">INGLES</h3>
+            </div>
+            <div class="col-sm-8 col-md-8 col-lg-8">
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+                <div class="progress" style="height: 30px; border-radius:20px;">
+                    <div class="progress-bar bg-success " role="progressbar" style="width: 80%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+            </div>
+            <hr class="text-white">
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+                <h3 class="text-white">HTML</h3>
+            </div>
+            <div class="col-sm-8 col-md-8 col-lg-8">
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+                <div class="progress" style="height: 30px; border-radius:20px;">
+                    <div class="progress-bar bg-success " role="progressbar" style="width: 80%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+            </div>
+            <hr class="text-white">
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+                <h3 class="text-white">CSS</h3>
+            </div>
+            <div class="col-sm-8 col-md-8 col-lg-8">
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+                <div class="progress" style="height: 30px; border-radius:20px;">
+                    <div class="progress-bar bg-success " role="progressbar" style="width: 80%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+            </div>
+            <hr class="text-white">
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+                <h3 class="text-white">JAVASCRIPT</h3>
+            </div>
+            <div class="col-sm-8 col-md-8 col-lg-8">
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+                <div class="progress" style="height: 30px; border-radius:20px;">
+                    <div class="progress-bar bg-success " role="progressbar" style="width: 80%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+            </div>
+            <hr class="text-white">
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+                <h3 class="text-white">ANGULAR</h3>
+            </div>
+            <div class="col-sm-8 col-md-8 col-lg-8">
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+                <div class="progress" style="height: 30px; border-radius:20px;">
+                    <div class="progress-bar bg-success " role="progressbar" style="width: 80%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+            </div>
+            <hr class="text-white">
+        </div>
+    </div>
+
+    <div class="proyectos container fondo">
+        <h2 class="titulo subTitulos">PROYECTOS</h2>
+        <i class="iconos fas fa-plus"></i>
+        <hr class="text-white">
+        <div class="row">
+            <div class="contenedorProyectos col-sm-12 col-md-6 col-lg-6">
+                <div>
+                    <h2 class="text-white d-inline">Pagina Web de Apple</h2>
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                    <i class="fas fa-ban iconos text-white"></i>
+                </div>
+                <div>
+                    <h3 class="text-white d-inline">Fecha: Julio de 2022</h3>
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                    <i class="fas fa-ban iconos text-white"></i>
+                </div>
+                <div>
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>  
+                    <p class="text-white">Esta pagina la hice con React, basicamente trata de 3 Cards que contienen un
+                producto y al darle click en el boton desplega una pequeña descripcion del Producto</p>
+                </div>
+                
+                <a href="https://desafio4-react.vercel.app/" target="_blank">CLICK AQUI</a>
+                <div>
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white mt-5"></i>  
+                <img src="./Img/proyecto1.png" class="imagenProyectos">
+            </div>
+            </div>
+            <div class="contenedorProyectos col-sm-12 col-md-6 col-lg-6">
+                <div>
+                    <h2 class="text-white d-inline">Pagina Web de Apple</h2>
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                    <i class="fas fa-ban iconos text-white"></i>
+                </div>
+                <div>
+                    <h3 class="text-white d-inline">Fecha: Julio de 2022</h3>
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                    <i class="fas fa-ban iconos text-white"></i>
+                </div>
+                <div>
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>  
+                    <p class="text-white">Esta pagina la hice con React, basicamente trata de 3 Cards que contienen un
+                producto y al darle click en el boton desplega una pequeña descripcion del Producto</p>
+                </div>
+                
+                <a href="https://desafio4-react.vercel.app/" target="_blank">CLICK AQUI</a>
+                <div>
+                    <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white mt-5"></i>  
+                <img src="./Img/proyecto2.png" class="imagenProyectos">
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

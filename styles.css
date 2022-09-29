@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: url(./Img/fondo-1.svg);
+   
+}
+
+.subTitulos{
+    font-size: 50px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.titulo{
+    background: linear-gradient(147deg, #ff6b01, #fd3838);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 20px #ff6b01;
+}
+
+.fondo{
+    background-color: rgba(50, 50, 50, .2);
+    border-radius: 20px;
+}
+
+
+/*---------NAV--------*/
+.navbar-brand img{
+    height: 70px;
+    width: 180px;
+    object-fit: cover;
+}
+
+.nav-link:hover{
+    background: linear-gradient(147deg, #ff6b01, #fd3838);
+    border-radius: 20px;
+}
+
+/*--------BANNER-------*/
+
+.banner img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    
+}
+
+.iconos{
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255, .2);
+    cursor: pointer;
+}
+
+.iconoBanner{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    margin: 10px;
+    z-index: 50;
+}
+
+/*----------Sobre Mi------------*/
+
+
+.contenedorPerfil{
+    text-align: center;
+}
+
+.nombrePerfil{
+    font-size: 70px;
+    word-wrap: break-word;
+}
+
+.contenedorPerfil img{
+    width: 200px;
+    height: 200px;
+    border-radius: 90%;
+    object-fit: cover;
+}
+
+.descripcionPerfil{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.contenedorDatos h3{
+    font-size: 30px;
+}
+
+.iconoSobreMi2{
+   position: absolute;
+   margin-top: 170px;
+   margin-left: -20px;
+}
+
+/*------Experiencia--------*/
+
+.experiencia{
+    background-color: rgba(50, 50, 50, .2);
+    border-radius: 20px;
+}
+
+.experiencia .titulo{
+    text-align: center;
+    color: #ff6b01;
+    font-size: 50px;
+}
+
+.imagenLlano{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.descripcion-experiencia{
+    text-align: center;
+}
+
+.descripcion-experiencia{
+    font-size: 20px;
+}
+
+/*------EDUCACION-----*/
+
+.imagenesEducacion{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/*-------HABILIDADES-----*/
+.proyectos{
+    text-align: center;
+ }
+
+ .contenedorProyectos{
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    padding: 30px 0;
+    border: 2px solid #1baa38;
+ }
+
+ .contenedorProyectos a{
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(147deg, #ff6b01, #fd3838);
+    padding: 10px 16px ;
+    border-radius: 20px;
+    transition: .5;
+ }
+
+ .contenedorProyectos a:hover{
+   opacity: .9;
+ }
+
+ .imagenProyectos{
+   width: 90%;
+   margin: 40px auto;
+   height: 300px;
+   object-fit: cover;
+ }
