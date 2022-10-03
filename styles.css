@@ -28,6 +28,14 @@ body{
     border-radius: 20px;
 }
 
+.iconos{
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255, .2);
+    cursor: pointer;
+}
+
 
 /*---------NAV--------*/
 .navbar-brand img{
@@ -48,14 +56,6 @@ body{
     height: 400px;
     object-fit: cover;
     
-}
-
-.iconos{
-    color: #fff;
-    padding: 10px;
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255, .2);
-    cursor: pointer;
 }
 
 .iconoBanner{
